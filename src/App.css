@@ -64,3 +64,45 @@
 .app-footer span {
   font-weight: bold;
 }
+
+@media (max-width: 714px) {
+  .app-header {
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .app-jobs {
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .job {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: calc((100% / 2) - (2 * 5px));
+    padding-left: 10px;
+  }
+
+  .job h3 {
+    font-size: 15px;
+  }
+
+  .job p {
+    font-size: 11px;
+  }
+
+  .app-footer {
+    font-size: 10px;
+    line-height: 25px;
+    height: 25px;
+    width: 60vw;
+    margin: 0 auto;
+  }
+}
